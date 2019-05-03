@@ -1,0 +1,15 @@
+### Initialisation 
+lien = 
+
+### Programe 
+
+echo " Bonsoir ! TU viens ici pour hacker youtube et télécharger illégalement des vidéos à partir de youtube..Hé, bien tu es au bonnes endroit !"
+echo "ALors allons-y ! Je vais te demander de rentrée le lien de la vidéo dont tu souhaites voler la musique !"
+read -p " ALler balance ton lien !" lien
+youtube-dl -x $lien
+echo " Voila sale voleur ta musique est télécharger sur ton répétoire"
+
+
+
+
+
